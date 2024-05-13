@@ -2,10 +2,6 @@
 
 List instagram non followers
 
-So some f\*\*\*\*\*\* as\*\*\*\*\* decided to unfollow you but they didn't remove you form their followers.
-
-Let's find them and unfollow them too!
-
 Login into your IG account on your PC, go to your profile and press F12 to open a console.
 
 Now click on `followers`, paste this in the console and hit enter:
@@ -23,7 +19,7 @@ Wait until it finishes loading and then paste this in the console and hit enter:
 
 ```js
 const followers = [];
-document.querySelectorAll('._aacl._aaco._aad7').forEach(n => {
+document.querySelectorAll('span._ap3a').forEach(n => {
 
 	followers.push(n.innerText);
 
@@ -33,7 +29,7 @@ document.querySelectorAll('._aacl._aaco._aad7').forEach(n => {
 Click on `following`, wait for it to finish loading, then paste this and hit enter:
 
 ```js
-document.querySelectorAll('._aacl._aaco._aad7').forEach(n => {
+document.querySelectorAll('span._ap3a').forEach(n => {
 
 	const username = n.innerText;
 	if (followers.indexOf(username) === -1) {
