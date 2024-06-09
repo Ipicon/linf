@@ -8,7 +8,7 @@ Now click on `followers`, paste this in the console and hit enter:
 
 ```js
 setInterval(() => { 
-	const aano = document.querySelector('._aano');
+	const aano = document.querySelector('.xyi19xy');
 	if (aano) {
 		aano.scrollTo(0, 1000000000000000000);
 	}
